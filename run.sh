@@ -1,0 +1,1 @@
+bash ../server/run.sh +exec resources.cfg +exec server.cfg +onesync on +sv_enforceGameBuild 2060| tee console_$(Get-Date -f yyyy-MM-dd-HHmm).log
